@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="3g8IZ3W2VnP3PbTTyylW">
+    <mxGraphModel dx="1462" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rjLDSvQF9-pALImjkphl-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-2" target="rjLDSvQF9-pALImjkphl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-2" target="rjLDSvQF9-pALImjkphl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-2" value="Power the Pi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-70" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-4" target="rjLDSvQF9-pALImjkphl-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-111" value="not 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-70">
+          <mxGeometry x="-0.5756" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-4" value="check PP1 voltage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-5" target="rjLDSvQF9-pALImjkphl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-10" value="&amp;nbsp;0 or shorted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-9">
+          <mxGeometry x="-0.1144" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-5" target="rjLDSvQF9-pALImjkphl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-17" value="shorted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-16">
+          <mxGeometry x="-0.1126" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-5" target="rjLDSvQF9-pALImjkphl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-23" value="3.3v but no boot/HDMI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-22">
+          <mxGeometry x="-0.0748" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-5" value="check PP3 voltage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-8" value="probably the 3.3V regulator or protection diode is dead" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-106" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-15" target="rjLDSvQF9-pALImjkphl-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-15" value="U14 (also nerbay caps/resistors first)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-15" target="rjLDSvQF9-pALImjkphl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-21" value="SoC or ROM may be damaged" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-25" value="Keep power connected" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-27" value="Locate U14 (small 6-pin IC near the dual USB ports)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-29" target="rjLDSvQF9-pALImjkphl-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-29" value="set multimeter to DC volts, 20V range" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-32" target="rjLDSvQF9-pALImjkphl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-32" target="rjLDSvQF9-pALImjkphl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-32" value="black probe in any ground (metal shell of a USB port or GPIO 6)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="640" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-34" target="rjLDSvQF9-pALImjkphl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-34" target="rjLDSvQF9-pALImjkphl-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-34" value="red probe on U14 input pin (pin 1, corner nearest the fuse). should show 5V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-36" target="rjLDSvQF9-pALImjkphl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-36" target="rjLDSvQF9-pALImjkphl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-36" value="red probe on U14 output pin (pin 5, oposite corner). should show 3.3V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="730" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-40" target="rjLDSvQF9-pALImjkphl-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-52" value="fix" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-51">
+          <mxGeometry x="-0.0606" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-40" value="U14 is dead" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-43" value="in 5V, out 0V" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-44" target="rjLDSvQF9-pALImjkphl-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-44" value="trace/fuse issue (see F3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-46" value="in 0V" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-47" value="regulator fine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-49" value="out 3.3V" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-54" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-50" target="rjLDSvQF9-pALImjkphl-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-50" value="Power off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-56" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-53" target="rjLDSvQF9-pALImjkphl-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-57" value="have spare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-56">
+          <mxGeometry x="-0.0853" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-59" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-53" target="rjLDSvQF9-pALImjkphl-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-60" value="no have spare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-59">
+          <mxGeometry x="-0.2242" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-53" value="desolder U14 (hot air or careful iron + tweezers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-55" value="replace with the same part" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-58" target="rjLDSvQF9-pALImjkphl-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-58" value="use a small external 3.3V regulator module if PP3 is not shorted" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-64" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-61" target="rjLDSvQF9-pALImjkphl-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-61" value="measure regulator output voltage before connecting to GPIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-62" value="feed its output to GPIO 1 (3.3V) and ground to GPIO 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-74" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-67" target="rjLDSvQF9-pALImjkphl-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-67" value="F3 (polyfuse)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1010" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-73" target="rjLDSvQF9-pALImjkphl-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-73" value="if PP3 is not 5V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-79" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-75" target="rjLDSvQF9-pALImjkphl-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-75" value="power off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-80" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-77" target="rjLDSvQF9-pALImjkphl-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-77" value="set multimeter to continuity or low-ohm mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-82" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-78" target="rjLDSvQF9-pALImjkphl-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-83" value="&amp;lt;1 ohm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-82">
+          <mxGeometry x="-0.1255" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-85" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-78" target="rjLDSvQF9-pALImjkphl-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-86" value="high resistance/open" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-85">
+          <mxGeometry x="0.2082" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-78" value="touch one probe on each side of F3 (flat yellow component beside the micro-USB port)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1320" width="137" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-81" value="fuse good" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-84" target="rjLDSvQF9-pALImjkphl-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-89" value="fix A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-88">
+          <mxGeometry x="0.0961" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-84" target="rjLDSvQF9-pALImjkphl-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-92" value="fix B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-91">
+          <mxGeometry x="0.0389" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-84" value="fuse tripped or blown" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-87" value="leave board unplugged for several hours, often resets itself" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-90" target="rjLDSvQF9-pALImjkphl-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-90" value="desolder F3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-96" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-93" target="rjLDSvQF9-pALImjkphl-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-93" value="temporarly bridge the pads with a small wire for testing (or a short term test)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1620" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-95" value="ib board boots, replace F3 with a 2A resettable polyfuse or similar size" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-100" target="rjLDSvQF9-pALImjkphl-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320.3571428571429" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-102" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-98" target="rjLDSvQF9-pALImjkphl-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-98" value="if 5V and 3.3V are both present, D5 U14 and F3 are all fine, but no HDMI USB or ACT LED, probably the SoC or its power management chip is internaly shorted or dead" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="270" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-100" value="SoC (pls not) or PMIC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-366" y="140" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-101" value="no fix witchout reballing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-366" y="400" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-104" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-103" target="rjLDSvQF9-pALImjkphl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-103" value="PP1 and PP3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-107" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-105" target="rjLDSvQF9-pALImjkphl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-108" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-105" target="rjLDSvQF9-pALImjkphl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-109" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-105" target="rjLDSvQF9-pALImjkphl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-105" value="U14 (3.3V regulator, feeds logic power)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-114" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-110" target="rjLDSvQF9-pALImjkphl-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-115" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-114">
+          <mxGeometry x="-0.6884" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-116" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-110" target="rjLDSvQF9-pALImjkphl-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-117" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-116">
+          <mxGeometry x="-0.8819" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-118" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-110" target="rjLDSvQF9-pALImjkphl-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-119" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rjLDSvQF9-pALImjkphl-118">
+          <mxGeometry x="-0.9579" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-110" value="multiple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-121" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-113" target="rjLDSvQF9-pALImjkphl-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-113" value="D5 (TVS diode, 5V input protection)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="440" width="122" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-123" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-120" target="rjLDSvQF9-pALImjkphl-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-120" value="power off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-125" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-122" target="rjLDSvQF9-pALImjkphl-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-127" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-122" target="rjLDSvQF9-pALImjkphl-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-122" value="multimeter to diode mode (→|–, arrow with triangle)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-130" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-124" target="rjLDSvQF9-pALImjkphl-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-134" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-124" target="rjLDSvQF9-pALImjkphl-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-138" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-124" value="red probe on the pad/side of D5 closest to the micro-USB port (5V side)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-131" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-126" target="rjLDSvQF9-pALImjkphl-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-135" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-126" target="rjLDSvQF9-pALImjkphl-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-137" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rjLDSvQF9-pALImjkphl-126" target="rjLDSvQF9-pALImjkphl-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-126" value="black probe on the pad/side closer to the metal USB connector (ground side)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-128" value="0.5-0.7V:&lt;div&gt;normal diode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-133" value="0.00V or beeping:&lt;div&gt;shorted&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="830" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjLDSvQF9-pALImjkphl-136" value="OL or open (rare):&lt;div&gt;blown open&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
