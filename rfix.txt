@@ -108,6 +108,17 @@ the RUN header pad (next to 40-pin gpio)
 should read 3.3v whwn board is running, 0 when held in reset (U14 is had or something is pulling it low)
 if RUN stays 0, the PMIC never starts (U14 or transistor network near it)
 
+check U14:
+1 - GND
+2 - RESET (output to RUN)
+3 - VCC (3.3V input)
+when 3.3v is ok, reset output goes high (3.3v) after ≈200ms
+if 3.3v is missing or U14 is dead, RESET stays low (so RUN does too)
+if no 3.3v, PMIC didnt make 3.3, so may be PMIC or upstream enable
+if 3.3 but no RESET (0v) U14 is faulty or output shorted
+fix for yes 3.3 no reset:
+briefly short 3.3v to RUN manually. if board boots U14 or transistor network is bad, if still dead SoC or PMIC
+
 U11 - small QFN near the HDMI port
 U11 label - MXL7704
 U11 - Main Power Management IC, generated 3.3v, 1.8v, 1.2v rails for SoC
