@@ -83,6 +83,7 @@ voltage rails
 
 
 
+
 other:
  when powered
  measure between pin 1 (3.3V) and pin 6 (gnd)
@@ -91,10 +92,21 @@ other:
  measure between pin 2 or 4 (5V) and pin 6 (gnd)
  when unpowered
  meacure continuity or reststance between 3.3V (pin 1) and GND (pin 6). low resistance internal short on the 3.3v rail, usually the SoC is internally fried
- if continuity/resistsnce from 3.3v and gnd is low (<20ohm) a shorted SoC capacitor on 3.3v rail
+ if continuity/resistsnce from 3.3v and gnd is low (<20ohm) a shorted SoC capacitor on 3.3v rail. if houndrets the rail is good but PMIC isnt starting
  if 3.3v ok, could be EEPROM (would need to be reflashed)
 
+probe PMIC (U11) outputs (powered)
+L3 expected 3.3V - main I/O rail
+L4 expected 1.8V - SDRAM, SoC domain
+L5 expected 1.2v - core
+L6 expected 0.8V - GPU or auxiliary domain
+if all are 0V, the PMIC is off, likely held in reset (U14 fault or RUN pulled low)
+if comes up briefly but drops, PMCI might be trying to start but sees a short
 
+chrck RUN pin:
+the RUN header pad (next to 40-pin gpio)
+should read 3.3v whwn board is running, 0 when held in reset (U14 is had or something is pulling it low)
+if RUN stays 0, the PMIC never starts (U14 or transistor network near it)
 
 U11 - small QFN near the HDMI port
 U11 label - MXL7704
