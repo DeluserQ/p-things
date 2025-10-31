@@ -79,3 +79,30 @@ C10 C11 C12
 R5 R6
 D1 D2
 voltage rails
+
+
+
+
+other:
+ when powered
+ measure between pin 1 (3.3V) and pin 6 (gnd)
+ if 3.3v is okey could be SoC or RUN held low
+ if 3.3 is 0v or <0.2v - U11 isnt enabled or shorted
+ measure between pin 2 or 4 (5V) and pin 6 (gnd)
+ when unpowered
+ meacure continuity or reststance between 3.3V (pin 1) and GND (pin 6). low resistance internal short on the 3.3v rail, usually the SoC is internally fried
+ if continuity/resistsnce from 3.3v and gnd is low (<20ohm) a shorted SoC capacitor on 3.3v rail
+ if 3.3v ok, could be EEPROM (would need to be reflashed)
+
+
+
+U11 - small QFN near the HDMI port
+U11 label - MXL7704
+U11 - Main Power Management IC, generated 3.3v, 1.8v, 1.2v rails for SoC
+U14 - tiny SOT-23-3 package near the RUN pin / 40 pin header are
+U14 label - APX803 (or similar)
+U14 - Reset supervisor (power-good monitor)
+
+look for any burn marks or solder balls near pin 7 (GPIO4)
+if U14 is phisicly damaged, it can keep RUN low so PMIC never starts so red light only
+
