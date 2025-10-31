@@ -1,0 +1,81 @@
+Not to do:
+ do not power 3.3v into gpio, fire or damage if there is no short on the rail
+ no SMD soldering if not needed
+To do:
+ resistance and diode test, with power OFF
+ use a good voltage rate
+
+1.
+ when the Pi is powered, PP1 should be 5V and PP3 should be 3.3V (obviusly relative to gnd)
+ when the Pi is not powered, the reristance between PP3 and GND should not be near 0, if it is there is a short on the 3.3V rail
+ if PP3 is 0 or shorted: probably the 3.3v regulator or protection diode is dead. repair requires smd soldering
+ if PP3 is ~3.3V, but no boot/HDMI: the SoC or ROM may be damaged
+ note: PP1 and PP3 are on the bottom of the board
+ if PP1 is not 5V, check F3 fuse first
+ if PP3 is shorted, check U14 and nerbay caps/resistors first
+2. D5 (TVS diode, 5V input protection)
+ note: red 5V, black gnd
+ unplug power
+ set multimeter to diode mode (→|–, arrow with triangle)
+ red probe on the pad/side of D5 closest to the micro-USB port (5V side)
+ black probe on the pad/side closer to the metal USB connector (ground side)
+ 0.4-0.7V - normal diode; 0.00V or beeping - shorted; OL or open - blown open (rare)
+ reverse the probe. should be OL (no conduction). if reads 0V both ways, D5 is shorted
+ a fix:
+  keep disconnected from power
+  heat both ends of D5 with soldering iron until it lifts
+  remove it completly
+  clean the 2 pads
+  reconnect power
+  the board should work, but witchout surge protection
+  first test with no sd card to confirm first red led only
+ if D5 is fine, continue to F3
+3. U14 (3.3V regulator, feeds logic power)
+ keep power connected
+ locate U14 - small 6-pin IC near the dual USB ports.
+ set multimeter to DC volts, 20V range
+ black probe on any ground (metal shell of a USB port or GPIO 6)
+ red probe on U14 input pin (pin 1, corner nearest the fuse), should show ≈5V
+ red probe on U14 output pin (pin 5, oposite corner), should show ≈3.3V
+ if:
+  input 5V, output 0V: U14 is dead
+  input 0V: trace/fuse issue (see F3)
+  output 3.3V: regulator fine, look at SoC failure
+ a fix:
+  power off
+  desolder U14 (hot air or careful iron + tweezers)
+  replace with the same part (marking varies, typically "A7Z" or "APX803")
+  if no spare:
+   use a small external 3.3V regulator module if PP3 is not shorted
+   measure regulator output voltage before connecting to GPIO
+   feed its output to GPIO 1 (3.3V) and ground to GPIO 6
+   only do this if the 3.3V line is not shorted (check rezistance between GPIO 1 and 6, should be >100)
+ only check U14 if PP3 is shorted or 3.3V is missing
+4. F3 - polyfuse
+ power off
+ set multimeter to continuity or low-ohm mode,
+ touch one probe on each side of F3 (flat yellow component beside the micro-USB port)
+ if <1ohm - good
+ if high resistance/open - fuse tripped or blown
+ a fix:
+  leave board unplugged for several hours, often resets itself, if not:
+  desolder F3
+  bridge the pads temporarly with a small wire for testing (or a short term test) - temporary only
+  if board boots, replace F3 with a 2A resettable polyfuse or similar size
+ check F3 if PP3 is not 5V
+5. SoC or PMIC (pray its not)
+ if 5V and 3.3V are both present, D5 U14 and F3 are all fine, but no HDMI USB or ACT LED, the main SoC or its power management chip is internaly shorted or dead
+ no fix witchout reballing
+
+order to check in:
+ D5 - check 2
+ F3 - check 4
+ U14 - check 3
+ SoC - check 5
+ only check SoC if 5V/3.3V rails are correct and all upstream components tested
+
+
+C10 C11 C12
+R5 R6
+D1 D2
+voltage rails
