@@ -100,6 +100,16 @@ L3 expected 3.3V - main I/O rail
 L4 expected 1.8V - SDRAM, SoC domain
 L5 expected 1.2v - core
 L6 expected 0.8V - GPU or auxiliary domain
+pins from a pdf:
+1 6
+2 5
+3 4
+1 - A1
+2 - GND
+3 - A2
+4 - Y2
+5 - VCC (3.3v?)
+6 - Y1
 if all are 0V, the PMIC is off, likely held in reset (U14 fault or RUN pulled low)
 if comes up briefly but drops, PMCI might be trying to start but sees a short
 
@@ -123,9 +133,10 @@ U11 - small QFN near the HDMI port
 U11 label - MXL7704
 U11 - Main Power Management IC, generated 3.3v, 1.8v, 1.2v rails for SoC
 U14 - tiny SOT-23-3 package near the RUN pin / 40 pin header are
-U14 label - APX803 (or similar)
+U14 label - APX803 (or similar) (some other text said BCM857BS from a pdf)
 U14 - Reset supervisor (power-good monitor)
 
 look for any burn marks or solder balls near pin 7 (GPIO4)
 if U14 is phisicly damaged, it can keep RUN low so PMIC never starts so red light only
 
+datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-reduced-schematics.pdf
